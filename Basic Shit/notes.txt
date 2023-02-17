@@ -1,0 +1,4 @@
+- can decalre functions and custom errors outside the contract to import in other contracts.
+    - the functions outside the contract can not read the state of the contrat.
+- will not wrap the maximum and minimum values of uint from now on
+- vid 1 => 6.28
