@@ -5,3 +5,5 @@
 - Each Folder contains Smart Contracts and Notes related to each contract and syntax of it.
 
 - More details in respective notes :)
+
+- after completing, go through this: "https://solidity-by-example.org/"
