@@ -34,3 +34,44 @@
   - by the use of those two, one can iterate through the mapping
 
 - Vid 24: Structs
+
+  - holds multiple datatypes together
+  - 3 types of initialization
+    - direct with order
+    - key-value pairs without order
+    - default and later updating
+    - to just read: memory
+    - to write: storage
+
+- Vid 25: Enums
+
+  - to hold multiple values whatever we want
+  - can be combined with any datatype
+  - set/update/delete/get
+
+- Vid 26: Deploy any contract
+
+  - skipped
+  - gotta come back later
+
+- Vid 27: Storage, Memory, and Calldata
+
+  - Storage: to get and update state variables (changes are preserved after function execution)
+  - Memory: to just read the variables (changes are not preserved and deleted after function execution)
+  - calldata: use when you want to pass values to another function
+    - it will save gas compared to memory
+
+- Vid 28: Simple Storage
+
+  - normal getting and setting app
+  - used calldata and memory
+
+- Vid 29: TODO list
+
+  - created a todo list in solidity
+
+- Vid 30: Events
+  - used to write data on the blockchain
+  - contract can not retrive the data after
+  - can be a good alternative of state variable in some cases
+  - not a read only function as it sends transactions
