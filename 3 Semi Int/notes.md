@@ -46,5 +46,25 @@
   - address can pay ether if marked payable
 
 - Vid 38: Fallback
+
   - used when function doesn't exist
   - to directly send ethers
+
+- Vid 39: Send ETH
+
+  - transfer (2300 gas)
+  - send (2300 gas) and returns bool
+  - call (sends all the gas) and returns bool & data
+
+- Vid 40: EtherWallet
+
+  - created a eth wallet to send and receive funds
+
+- Vid 41: Call other contracts
+
+  - two methods (pass type in parameter, or use address inside the function)
+  - check syntax of sending eth while calling contract functions
+
+- Vid 42: Interfaces
+  - lets us call contracts without having access to the whole code
+  - address is needed of the contract
